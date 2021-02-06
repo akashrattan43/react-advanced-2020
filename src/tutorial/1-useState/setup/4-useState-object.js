@@ -1,28 +1,28 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
 
-const UseStateObject = () => {
-  const [person, setPerson] = useState({
-    name: "peter",
-    age: 24,
-    message: "Random Message",
-  });
+// const UseStateObject = () => {
+//   // const [person, setPerson] = useState({
+//     name: "peter",
+//     age: 24,
+//     message: "Random Message",
+//   // });
 
-  const [name, setName] = useState('peter')
-  const [age, setAge] = useState('24')
-  const [message, setMessage] = useState('Random Message')
+//   // const [name, setName] = useState('peter')
+//   // const [age, setAge] = useState('24')
+//   // const [message, setMessage] = useState('Random Message')
 
-  const changeMessage = () => {
-    // setPerson({...person, message:'Hello World'})
-    setMessage('Hello World')
-  }
+//   // const changeMessage = () => {
+//     // setPerson({...person, message:'Hello World'})
+//     setMessage('Hello World')
+//   }
 
-  return <>
-    <h3>{name}</h3>
-    <h3>{age}</h3>
-    <h3>{message}</h3>
-    <button className='btn' onClick={changeMessage}>Change Message</button>
-  </>;
-};
+//   return <>
+//     <h3>{name}</h3>
+//     <h3>{age}</h3>
+//     <h3>{message}</h3>
+//     <button className='btn' onClick={changeMessage}>Change Message</button>
+//   </>;
+// // };
 
-export default UseStateObject;
+// export default UseStateObject;
    
